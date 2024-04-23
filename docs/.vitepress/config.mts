@@ -31,6 +31,14 @@ export default defineConfig({
           { text: 'First HTML page!', link: '/First HTML page!'}
         ],
       },
+      {
+        text: 'Sharing My Playlist',
+        collapsed: true,
+        items:[
+          {text: 'Annual Songs', link: '/annual-songs'},
+          {text: 'Current Playlists', link: '/current-playlists'}
+        ]
+      },
     ],
 
 
