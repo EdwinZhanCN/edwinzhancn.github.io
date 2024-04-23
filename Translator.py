@@ -11,7 +11,7 @@ def to_markdown(text):
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 
-def translate(prompt, source_language, target_language):
+def translate(text, source_language, target_language):
     """
   Translates a prompt from one language to another using the Gemini API.
 
@@ -25,7 +25,10 @@ def translate(prompt, source_language, target_language):
   """
 
     model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content("who you are?")
+    response = model.generate_content(f'''Translate {source_language} in input to {target_language}. Use json template in output and replace RESULT by the translation.
+    Input :{text}
+    Output :
+    {{"text":"RESULT"}}''')
     print(response.text)
 
 
