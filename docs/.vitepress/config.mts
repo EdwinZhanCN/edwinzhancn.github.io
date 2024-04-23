@@ -36,8 +36,8 @@ export default defineConfig({
         collapsed: true,
         items:[
           {text: 'Annual Songs', link: '/annual-songs'},
-          {text: 'Current Playlists', link: '/current-playlists'}
-        ]
+          {text: 'Current Playlists', link: '/current-playlists'},
+        ],
       },
     ],
 
