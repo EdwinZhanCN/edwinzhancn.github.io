@@ -30,7 +30,7 @@ def translate(prompt, source_language, target_language):
 
 
 # Example usage
-load_dotenv()
+load_dotenv(".env.secret")
 
 # Get API key from environment variable
 api_key = os.getenv('GOOGLE_API_KEY')
