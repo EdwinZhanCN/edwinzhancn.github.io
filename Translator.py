@@ -26,7 +26,7 @@ def translate(prompt, source_language, target_language):
 
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content("who you are?")
-    to_markdown(response.text)
+    print(response.text)
 
 
 # Example usage
