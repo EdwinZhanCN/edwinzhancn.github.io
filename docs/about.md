@@ -1,4 +1,5 @@
-# 个人网站简介
+# 本博客由简单的VitePress和MarkDown文档组成
+# 个人网站简介（未发布）
 本网站由Vue.js, JavaWeb, Vite, VitePress等技术共同组建而成。
 在建站的过程中磕磕碰碰学习了不少小东西，比如
 **Linux操作系统, Nginx, Apache, Azure VM, Azure Blob Storage
