@@ -1,3 +1,0 @@
-IPython
-python-dotenv
-google.generativeai
