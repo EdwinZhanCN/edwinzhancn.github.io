@@ -8,7 +8,7 @@ Click 'Start free', you may need your education email for verification, `example
 
 **Not a student ?**
 [Go to Microsoft Azure official website](https://azure.microsoft.com/en-us/)
-Click 'Free account', After the decription due, you need to pay for the Virtual Machine
+Click 'Free account', Note you may need to add payment methods after the free trial.
 <img src = "./image/azure-official.png"/>
 
 ## Login to the Microsoft Azure
@@ -24,7 +24,7 @@ and click  **Create a resource**
 ## Create a virtual machine
 You will see the icon of virtual machine then click `Create`
 <img src = "./image/azure-create.png"/>
-In this page we will set up our virtual machine
+This page is where you will set up your virtual machine.
 <img src = "./image/virtual-machine.png"/>
 
 **The inputs needed:**
@@ -39,13 +39,13 @@ For free account, we can choose 64GiB P6 disk, which is free for free account.Ex
 Here, we will create a new `Virtual network` click **Create new**. and input your prefferd name, click **OK**.
 <img src = "./image/create-vnet.png"/>
 
-Here, we will create a `Public IP` address, select `Basic` and `Dynamic`. Don't be worry about dynamic Public IP address. In fact,  Microsoft won't change your IP address. Using static Public IP address will have extra costs. (If the option is disabled, you should check your Availability options in **Baiscs**)
+Here, we will create a `Public IP` address, select `Basic` and `Dynamic`. Don't worry about the dynamic IP address; Microsoft typically won't change it. Using static Public IP address will have extra costs. (If the option is disabled, you should check your Availability options in **Baiscs**)
 <img src = "./image/create-net.png"/>
 
-**OK, well down.** We just finish some basic settings for our VM, which is enough, you can learn other settings from the Internet or Microsoft official. In here, we can just click `Review + create` button at the bottom left. 
+**OK, well done.** We just finish some basic settings for our VM, which is enough, you can learn other settings from the Internet or Microsoft official. In here, we can just click `Review + create` button at the bottom left. 
 
-:::danger
-**Don't forget to download your SSH key!**
+:::IMPORTANT
+** Note: Download Your SSH Key!**
 :::
 
 <img src = "./image/create-SSH.png"/>
