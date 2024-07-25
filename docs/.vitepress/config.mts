@@ -20,7 +20,7 @@ export default defineConfig({
       },
       {
         text: 'Personal Website Tutorial',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Introduction', link: '/personal-website-tutorial-about' },
           { text: 'Start with Azure', link: '/Start-with-Azure' },
@@ -29,6 +29,18 @@ export default defineConfig({
           { text: 'Setup Domain name', link: '/Domain-name-setup' },
           { text: 'Setup SSL-Certificate (Optional)', link: '/SSL-Certificate-Setup'},
           { text: 'First HTML page!', link: '/First HTML page!'}
+        ],
+      },
+      {
+        text: 'YOLOv8 Tutorial On Jetson Orin Nano',
+        collapsed: true,
+        items: [
+            { text: 'Introduction', link: '/JetsonYolo/Introduction' },
+            { text: 'Have a Look On Jetson Orin Nano', link: '/JetsonYolo/Ubuntu desktop and Jetpack' },
+            { text: 'Download Applications', link: '/JetsonYolo/Downloads Applications' },
+            { text: 'Setup Environment', link: '/JetsonYolo/Setup The Environment Using Anaconda' },
+            { text: 'Code and Run', link: '/JetsonYolo/Code and Run YOLOv8' },
+            { text: 'Basics', link: '/JetsonYolo/Basic commands' },
         ],
       },
       {
