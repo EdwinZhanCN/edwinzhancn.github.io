@@ -40,6 +40,7 @@ export default defineConfig({
             { text: 'Download Applications', link: '/JetsonYolo/Downloads Applications' },
             { text: 'Setup Environment', link: '/JetsonYolo/Setup The Environment Using Anaconda' },
             { text: 'Code and Run', link: '/JetsonYolo/Code and Run YOLOv8' },
+            { text: 'Segmentation With CSI Camera', link: '/JetsonYolo/YOLOv8 Segmentation With CSI Camera' },
             { text: 'Basics', link: '/JetsonYolo/Basic commands' },
         ],
       },
