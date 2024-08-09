@@ -83,7 +83,7 @@ sudo systemctl status jupyter.service
 
 Open a broswer, maybe firefox?
 
-Enter the url port we just created, *http://localhost:8888*
+Enter the url port we just created
 
 //TODO:Image
 
