@@ -4,7 +4,7 @@
 
 ## Registar GitHub
 Go to [GitHub](https://github.com/), click `Sign Up`:
-<img src = "./image/github-main.png"/>
+<img src = "/image/github-main.png"/>
 
 Follow the sign up instructions:
 <img src = "/image/register-github.png"/>

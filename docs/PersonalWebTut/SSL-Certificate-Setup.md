@@ -4,7 +4,7 @@ Generally, If you don't want your Website to be "Not Secure", you need this.
 
 ## Get a SSL Certificate
 Similar to a domain name, you need an SSL Certificate from sellers, and you need a **management station** to handle it. An SSL Certificate should be bound to your domain name.
-<img src = "./image/ssl-seller.png"/>
+<img src = "/image/ssl-seller.png"/>
 
 After you obtain a SSL certificate, you need to download your certificate. Since we are using Nginx, there are two files: one with a .pem extension and another with a .key extension.**(pem/key)**
 
