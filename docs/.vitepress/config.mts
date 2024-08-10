@@ -20,15 +20,15 @@ export default defineConfig({
       },
       {
         text: 'Personal Website Tutorial',
-        collapsed: false,
+        collapsed: true,
         items: [
-          { text: 'Introduction', link: '/personal-website-tutorial-about' },
-          { text: 'Start with Azure', link: '/Start-with-Azure' },
-          { text: 'Connect to Virtual Machine', link: '/Connect-to-Virtual-Machine' },
-          { text: 'Setup Nginx', link: '/Nginx-Setup' },
-          { text: 'Setup Domain name', link: '/Domain-name-setup' },
-          { text: 'Setup SSL-Certificate (Optional)', link: '/SSL-Certificate-Setup'},
-          { text: 'First HTML page!', link: '/First HTML page!'}
+          { text: 'Introduction', link: '/PersonalWebTut/personal-website-tutorial-about' },
+          { text: 'Start with Azure', link: '/PersonalWebTut/Start-with-Azure' },
+          { text: 'Connect to Virtual Machine', link: '/PersonalWebTut/Connect-to-Virtual-Machine' },
+          { text: 'Setup Nginx', link: '/PersonalWebTut/Nginx-Setup' },
+          { text: 'Setup Domain name', link: '/PersonalWebTut/Domain-name-setup' },
+          { text: 'Setup SSL-Certificate (Optional)', link: '/PersonalWebTut/SSL-Certificate-Setup'},
+          { text: 'First HTML page!', link: '/PersonalWebTut/First HTML page!'}
         ],
       },
       {

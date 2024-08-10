@@ -17,9 +17,9 @@ hero:
 features:
   - title: Building your own website
     details: Using Microsoft Azure and Github to build your own website.
-  - title: SwiftUI documentation
-    details: A easy-to-read documentation for SwiftUI. !NOT COMPLETE YET!
+  - title: AI on Jetson Nano
+    details: Setting up the environment for AI on Jetson Nano.
   - title: Apple products
-    details: Product Usage Insights from a Ten-Year Apple User.!NOT COMPLETE YET!
+    details: Product Usage Insights from a Ten-Year Apple User.
 ---
 

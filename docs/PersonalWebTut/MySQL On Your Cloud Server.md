@@ -7,11 +7,11 @@ In this blog, you will learn how to deploy MySQL service on ubuntu linux virtual
 ## Applications you may need
 **SSH Connection**
 
-<img src="./image/visual-studio-code-1.svg" width="30" height="30"/>
+<img src="/image/visual-studio-code-1.svg" width="30" height="30"/>
 
 [Visual Studio Code (Remote-SSH)](https://code.visualstudio.com)
 
-<img src = "./image/datagrip-icon.svg" width= "30" height = "30"/>
+<img src = "/image/datagrip-icon.svg" width= "30" height = "30"/>
 
 [Data Grip(Optional DataBase Management Tool)](https://www.jetbrains.com/datagrip/download/)
 
