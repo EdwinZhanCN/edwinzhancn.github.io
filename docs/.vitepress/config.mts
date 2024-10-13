@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 // @ts-ignore
+// @ts-ignore
 export default defineConfig({
   title: "Welcome to my blog",
   description: "I will share my journey of computer science here.",
@@ -61,5 +62,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/EdwinZhanCN' }
     ]
-  }
+  },
 })
