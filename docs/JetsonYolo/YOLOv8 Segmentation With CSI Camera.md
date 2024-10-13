@@ -109,7 +109,7 @@ video_cap.release()
 cv2.destroyAllWindows()
 ```
 
-<img src="attachments/Result.png" />
+![Result](./attachments/Result.png)
 
 ### Knowing Running Issues
 
