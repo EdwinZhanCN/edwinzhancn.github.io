@@ -5,9 +5,6 @@
 ### Getting Started
 
 1. Open the Terminal
-
-   :
-
    - You can open the terminal by pressing `Ctrl + Alt + T` or by searching for "Terminal" in the applications menu.
 
 ### Basic Commands
@@ -321,4 +318,4 @@ echo "Hello, Ubuntu!" > hello.txt
 cat hello.txt
 ```
 
-This should give you a good start with using the command line in Ubuntu. Practice these commands, and you'll become more comfortable with the terminal. If you have any questions or need further assistance, feel free to ask!
+This should give you a good start with using the command line in Ubuntu. Practice these commands, and you'll become more comfortable with the terminal.

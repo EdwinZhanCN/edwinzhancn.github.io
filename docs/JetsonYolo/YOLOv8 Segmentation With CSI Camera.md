@@ -109,6 +109,8 @@ video_cap.release()
 cv2.destroyAllWindows()
 ```
 
+<img src="./attachments/Result.JPG" />
+
 ### Knowing Running Issues
 
 - `ImportError: /lib/x86_64-linux-gnu/libp11-kit.so.0: undefined symbol: ffi_type_pointer, version LIBFFI_BASE_7.0`

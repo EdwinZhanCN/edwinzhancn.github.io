@@ -16,7 +16,7 @@ Simply put, the Jetson Orin Nano offers **great performance in a compact body**.
 
 YOLO (You Only Look Once) is a real-time object detection system that stands out for its speed and accuracy. The initial idea of this vision model is presented by the paper [“You Only Look Once: Unified, Real-Time Object Detection”](https://doi.org/10.48550/arXiv.1506.02640) After a few more years of iteration, its latest stable version has arrived at **Yolov8**. This blog will demonstrate its **Object Detection capabilities for static images and segmentation in video streams.**
 
-##Crucial Steps
+## Crucial Steps
 
 - Have a look at [ubuntu](https://ubuntu.com) and **Jetpack** ✈️
 - Set up environment with **Anaconda** 🌲

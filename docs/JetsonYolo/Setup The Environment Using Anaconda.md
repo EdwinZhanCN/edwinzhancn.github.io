@@ -49,13 +49,15 @@ conda deactivate
 
 ### Have a look in Visual Studio Code
 
-Open the VSCode in lunach pad
+Open the VSCode in lunch pad, and click the extension button (icon with blocks) on the left side bar, then search for following python extensions (Installed Section, Python related only):
 
-
+<img src="./attachments/Python-Extension-Install.png"  />
 
 ### Setup Yolov8 Environment using Ultralytics
 
-**!ALL Operation should Under yolov8 conda environment we created!**
+::: danger 
+All Operation Should be Done on yolov8 Environment ! 
+:::
 
 Now, **we shall activate the yolov8 env and check all python interpreter is under the correct path.**
 

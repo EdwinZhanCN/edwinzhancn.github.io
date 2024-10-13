@@ -4,15 +4,15 @@ This chapter will tell you how to use linux command line.
 
 ## linux command line
 
-Using **CLI (Command Line Interface)** is a really important skill for computer science woker. Here is a document that generate by OpenAI ChatGPT 4o, it teaches you some most useful commands in linux and ubuntu system. 
+Using **CLI (Command Line Interface)** is a really important skill for computer science woker. Here is a [document](./Basic commands.md) that generate by OpenAI ChatGPT 4o, it teaches you some most useful commands in linux and ubuntu system. 
 
 ## Version Check
 
-Alright! Let’s have a look to our Jetson desktop. If you see this cool and green Nvidia logo, that means you are in the Jetson linux system, there is a lot of shortcusts on the left hand of screen, but from now we don’t care about those. 
+Alright! Let’s have a look to our Jetson desktop. If you see this cool and green Nvidia logo, that means you are in the Jetson linux system, there is a lot of shortcuts on the left hand of screen, but from now we don’t care about those. 
 
-Generally, Jetson linux in a special version of ubuntu desktop, it just looks simliar with other operating system like MacOS and Windows, easy to use, ez, ez.
+Generally, Jetson linux in a special version of ubuntu desktop, it just looks similar with other operating system like MacOS and Windows, easy to use, ez, ez.
 
-//TODO: Image
+<img src = "./attachments/Jetson-Linux.png"/>
 
 ### Jtop
 
@@ -33,9 +33,14 @@ reboot
 jtop
 ```
 
-//TODO: Jtop Image
+If the Jtop was successfully installed, then you can see a GUI system holds in terminal like this image.
 
-//SDK manager
+<img src = "./attachments/Jtop.png" />
+
+
+Then, you need to check if the environment of your Jetson orin nano is same as mine, if not, you need to download *SDK Manager* on another **X86 Ubuntu 20.04** Machine to flash the same version as mine. Because the  **Jetpack 6** is still unstable and many of the softwares and dependencies are not working on that, I just use the latest version of Jetpack 5. Also the TensorRT, CUDA, cuDNN and OpenCV should be included. All Reinstallation can be done with SDK Manager (Follow the guide on https://developer.nvidia.com/sdk-manager)
+
+<img src = "./attachments/Jtop-Version.png" />
 
 
 

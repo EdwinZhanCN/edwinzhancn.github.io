@@ -8,7 +8,7 @@ The source code can be stored in many ways. bc model’s source could be large a
 
 The way I use to store the code is **NAS (Network Attached File System)**, and use the *resilio-sync* to cache the file. It allows me to edit code on more powerful and convinent system like a Mac.
 
-The tutorial of nas will be created later. The way to store the code is totally up to you.
+The tutorial of NAS will be created later. The way to store the code is totally up to you.
 
 ```shell
 # Choose or create the directory to store your code
@@ -23,7 +23,7 @@ After cloning the repository, go to ubuntu launch pad and **open the VSCode**
 
 Click the python extension on the **left sidebar,** you can easliy see the global environments, and the **conda environments we just created.** Here, we can **manage the packages installed** like update, remove.
 
-//TODO image
+<img src="./attachments/Python-env-show.png"  />
 
 ### Code the YOLOv8
 
@@ -57,6 +57,8 @@ results = trt_model("https://ultralytics.com/images/bus.jpg", save=True)
 Remember to open a **Jtop** on terminal, click the `6CTRL` tab and change the fan speed.
 
 Back to VSCode and your file. press `ctrl+shift+p` on your keyboard. Type **Python: Select Interpreter** Choose the conda yolov8 environment we created.
+
+<img src = "./attachments/Select-python-Env.png" />
 
 Then click the right triangle button on the right top of the VSCode to run python file.
 
