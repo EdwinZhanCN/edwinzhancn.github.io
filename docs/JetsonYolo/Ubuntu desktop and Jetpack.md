@@ -4,7 +4,7 @@ This chapter will tell you how to use linux command line.
 
 ## linux command line
 
-Using **CLI (Command Line Interface)** is a really important skill for computer science woker. Here is a [document](./Basic commands.md) that generate by OpenAI ChatGPT 4o, it teaches you some most useful commands in linux and ubuntu system. 
+Using **CLI (Command Line Interface)** is a really important skill for computer science woker. Here is a [[document](./Basic commands.md)](https://edwinzhancn.github.io/JetsonYolo/Basic%20commands.html) that generate by OpenAI ChatGPT 4o, it teaches you some most useful commands in linux and ubuntu system. 
 
 ## Version Check
 
