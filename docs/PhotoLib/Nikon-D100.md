@@ -1,7 +1,7 @@
 # Nikon D100 Featured
 Shot with Nikon D100, edited in Lightroom
 
-![Image1](./attachments/IMG_0395.JPG)
+![Image1](./attachments/IMG_0395.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/80 s
@@ -10,7 +10,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-14
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image2](./attachments/IMG_0396.JPG)
+![Image2](./attachments/IMG_0396.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/50 s
@@ -19,7 +19,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-14
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image1](./attachments/IMG_0404.JPG)
+![Image1](./attachments/IMG_0404.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/30 s
@@ -28,7 +28,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-14
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image2](./attachments/IMG_0407.JPG)
+![Image2](./attachments/IMG_0407.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1250 s
@@ -37,7 +37,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-16
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image1](./attachments/IMG_0408.JPG)
+![Image1](./attachments/IMG_0408.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1000 s
@@ -46,7 +46,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-16
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image2](./attachments/IMG_0409.JPG) 
+![Image2](./attachments/IMG_0409.png) 
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1000 s
@@ -55,7 +55,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-16
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image1](./attachments/IMG_0410.JPG)
+![Image1](./attachments/IMG_0410.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/640 s
@@ -64,7 +64,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-16
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image2](./attachments/IMG_0411.JPG)
+![Image2](./attachments/IMG_0411.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/200 s
@@ -73,7 +73,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image1](./attachments/IMG_0415.JPG)
+![Image1](./attachments/IMG_0415.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/60 s
@@ -82,7 +82,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image2](./attachments/IMG_0417.JPG)
+![Image2](./attachments/IMG_0417.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/160 s
@@ -91,7 +91,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image1](./attachments/IMG_0420.JPG)
+![Image1](./attachments/IMG_0420.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/160 s
@@ -100,7 +100,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image2](./attachments/IMG_0424.JPG)
+![Image2](./attachments/IMG_0424.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/350 s
@@ -109,7 +109,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image1](./attachments/IMG_0429.JPG)
+![Image1](./attachments/IMG_0429.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1250 s
@@ -118,7 +118,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image2](./attachments/IMG_0430.JPG)
+![Image2](./attachments/IMG_0430.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/640 s
@@ -127,7 +127,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-15
 - **Lens Model**: 55.0-200.0 mm f/4.0-5.6
 
-![Image2](./attachments/IMG_0431.JPG)
+![Image2](./attachments/IMG_0431.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1000 s

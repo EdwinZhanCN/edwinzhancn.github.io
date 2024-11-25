@@ -1,8 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-// @ts-ignore
-// @ts-ignore
 export default defineConfig({
   title: "Welcome to my blog",
   description: "I will share my journey of computer science here.",
@@ -71,3 +69,7 @@ export default defineConfig({
     ]
   },
 })
+function vue() {
+    throw new Error('Function not implemented.')
+}
+
