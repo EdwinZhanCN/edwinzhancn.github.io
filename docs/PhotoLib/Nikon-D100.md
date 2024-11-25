@@ -46,7 +46,7 @@ Shot with Nikon D100, edited in Lightroom
 - **Capture Date**: 2024-07-16
 - **Lens Model**: 50.0 mm f/1.8
 
-![Image2](./attachments/IMG_0409.JPG)
+![Image2](./attachments/IMG_0409.JPG) 
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
 - **Shutter Speed**: 1/1000 s
