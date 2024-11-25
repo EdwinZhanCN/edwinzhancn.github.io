@@ -56,6 +56,13 @@ export default defineConfig({
           {text: 'Current Playlists', link: '/current-playlists'},
         ],
       },
+      {
+        text: 'Photo Gallery',
+        collapsed: true,
+        items:[
+          {text: 'Nikon D100', link: '/PhotoLib/Nikon-D100'},
+        ]
+      }
     ],
 
 
