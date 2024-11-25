@@ -1,6 +1,10 @@
 # Nikon D100 Featured
 Shot with Nikon D100, edited in Lightroom
 
+Once crowned the unrivaled king of consumer-grade **CCD cameras**, the Nikon D100 can now be yours for less than fifty dollars. When I first cradled this venerable device and pressed the shutter, the crisp, melodious whisper of its curtain revealed that time had scarcely touched its soul. Its remarkable dynamic range and film-like hues rendered post-processing not just effortless but a genuine pleasure.
+
+And This is a collection of photographs that celebrate the timeless artistry of the D100.
+
 ![Image1](./attachments/IMG_0395.png)
 - **Camera Make**: NIKON CORPORATION
 - **Camera Model**: NIKON D100
