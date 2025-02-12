@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "MC-guide"
             }
+          },
+          {
+            "id": "9644246d3ed5ca08",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html",
+                "title": "Minecraft-server | Welcome to my blog",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Minecraft-server | Welcome to my blog"
+            }
           }
         ]
       }
@@ -166,13 +180,14 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "7b9a893b04928de8",
   "lastOpenFiles": [
+    "FabricInstallationOptimized.mp4",
     "MAIL.md",
+    "server | Welcome to my blog.md",
     "Activities/minecraft-server/MC-guide.md",
     "email_list.txt"
   ]
