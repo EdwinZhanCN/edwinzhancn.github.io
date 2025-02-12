@@ -11,9 +11,9 @@ jobs:
   send_email:
     runs-on: ubuntu-latest
     steps:
-      - name: Read email list
-        id: read_email_list
-        run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
+#      - name: Read email list
+#        id: read_email_list
+#        run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
@@ -31,7 +31,7 @@ jobs:
           # Required mail subject:
           subject: Ed's Blog -'${{ github.event.inputs.blog_post_title }}
           # Required recipients' addresses:
-          to: ${{ env.emails }}
+          to: ed_zhan@outlook.com,edwinzhancn@icloud.com
           # Required sender full name (address can be skipped):
           from: edwinzhanblog@gmail.com # <user@example.com>
           # Optional plain body:
