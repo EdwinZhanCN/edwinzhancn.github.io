@@ -1,29 +1,28 @@
-# From EdwinZhanBlog 📝
+# 📧 Blog Update: Minecraft-server Mods & Blog News
 
-## New Blog Updates 
+## Hi Friends,
 
-### Minecraft-server-Mods update
+I hope this message finds you well! I wanted to share some exciting updates from my blog, especially for those interested in the Minecraft-server mods. Here's a quick summary of what's new:
 
-Here's a summary of the Minecraft server modifications, so you can see what's been updated recently:
+### **Minecraft-server Mods Update**
+Below are the latest mods and improvements for our Minecraft server experience:
 
-| Mod Name        | Category | Description                                                   |
-|-----------------|----------|---------------------------------------------------------------|
-| JourneyMap      | Utility  | Updated for improved map performance and compatibility.       |
-| Xaero's Minimap | Visual   | Includes the latest bug fixes and visual enhancements.        |
-| WorldEdit       | Building | Now includes the newest brush tools for even easier building! |
+| **Mod Name**    | **Category** | **Description**                             |
+|-----------------|--------------|---------------------------------------------|
+| JourneyMap      | Utility      | Enhanced map performance and compatibility. |
+| Xaero's Minimap | Visual       | Latest bug fixes and visual enhancements.   |
+| WorldEdit       | Building     | New brush tools for easier building.        |
 
-Please Download the mods to make sure you can enjoy all server features! 😚
+It is recommended to update the module to experience new features when you have time. For specific tutorials, please refer to the guide page. If you encounter any problems, feel free to contact me at Discord (Ed.#0168)~
 
-We're constantly working to improve the content and experience, and we appreciate your support!
+For detailed installation instructions and additional mods, visit the guide on my blog:  
+[Minecraft-server Mod Installation Guide](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html)
 
-For more detailed information, please visit the blog post at [Minecraft-server](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html).
+### **Stay Connected**
+- **Blog:** [EdwinZhanBlog](https://edwinzhancn.github.io/)
+- **Discord:** Ed.#0168
 
-Thank you for being a part of the Ed's Blog community!
+If you have any questions or suggestions, feel free to reply to this email or message me on Discord. I appreciate your support and look forward to seeing you in the Minecraft-server community!
 
-Best regards,
-
+Best regards,  
 Edwin Zhan
-
-[Link to Blog](https://edwinzhancn.github.io/)
-
-Discord: Ed.#0168
