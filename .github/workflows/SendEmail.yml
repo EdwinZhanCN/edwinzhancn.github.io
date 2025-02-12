@@ -22,7 +22,7 @@ jobs:
 
       - name: Read email list
         id: read_email_list
-        run: echo "emails=$(cat ./docs/email_list.txt)" >> $GITHUB_ENV
+        run: echo "emails=$(cat email_list.txt)" >> $GITHUB_ENV
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
