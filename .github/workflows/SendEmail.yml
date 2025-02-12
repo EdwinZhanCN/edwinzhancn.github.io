@@ -18,6 +18,9 @@ jobs:
       - name: Check HTML file existence
         run: |
           ls -l
+      - name: Read email list
+        id: read_email_list
+        run: echo "emails=$(cat email_list.txt)" >> $GITHUB_ENV
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
         with:
@@ -34,7 +37,7 @@ jobs:
           # Required mail subject:
           subject: Ed's Blog -'${{ github.event.inputs.blog_post_title }}
           # Required recipients' addresses:
-          to: ed_zhan@outlook.com,edwinzhancn@icloud.com
+          to: ${{ env.emails }}
           # Required sender full name (address can be skipped):
           from: edwinzhanblog@gmail.com # <user@example.com>
           # Optional HTML body read from file:
