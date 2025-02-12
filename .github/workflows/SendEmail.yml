@@ -1,11 +1,9 @@
 name: Send Blog Update Email
 
 on:
-  workflow_dispatch:
-    inputs:
-      blog_post_title:
-        description: 'Title of the updated blog post'
-        required: true
+  push:
+    paths:
+      - 'MAIL.md'
 
 jobs:
   send_email:
@@ -15,12 +13,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Check HTML file existence
+
+      - name: Extract blog post title
+        id: extract_title
         run: |
-          ls -l
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          echo "BLOG_POST_TITLE=$(echo "$COMMIT_MESSAGE" | grep -oP '(?<=Title: ).*')" >> $GITHUB_ENV
+
       - name: Read email list
         id: read_email_list
         run: echo "emails=$(cat email_list.txt)" >> $GITHUB_ENV
+
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
         with:
@@ -29,12 +32,9 @@ jobs:
           secure: true
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
-          subject: "Ed's Blog Update: ${{ github.event.inputs.blog_post_title }}"
+          subject: "Ed's Blog Update: ${{ env.BLOG_POST_TITLE }}"
           to: ${{ env.emails }}
-          from: "Edwin Zhan <edwinzhanblog@gmail.com>" # Name + email
+          from: "Edwin Zhan <edwinzhanblog@gmail.com>"
           body: Your plain text content here
           html_body: file://MAIL.md
           convert_markdown: true
-
-
-
