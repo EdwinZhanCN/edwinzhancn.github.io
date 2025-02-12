@@ -1,6 +1,6 @@
 # Minecraft-server
 
-Yes, you are invited. If you cannot read english, please use [This Web Translator](https://immersivetranslate.com/en/)
+Yes, you are invited. If you cannot read English, please use [This Web Translator](https://immersivetranslate.com/en/)
 
 ## Mod Installation Guide (Fabric)
 
@@ -68,7 +68,7 @@ I use Iris
 
 1.  **Locate the `mods` Folder:**  In your `.minecraft` directory, you should now have a `mods` folder. If it doesn't exist, create one.
 
-2.  **Copy the Mod Files:** Copy all the `.jar` files from [ModList](#mods-list)
+2.  **Copy the Mod Files:** Copy all the `.jar` files from [Mods List](#mods-list)
 
 ## 3. Install Iris
 1.  **Run the Iris Installer:**
