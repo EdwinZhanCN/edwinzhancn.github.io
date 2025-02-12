@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAIL.md",
+                "file": "Activities/minecraft-server/MC-guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAIL"
+              "title": "MC-guide"
             }
           }
         ]
@@ -172,8 +172,8 @@
   },
   "active": "7b9a893b04928de8",
   "lastOpenFiles": [
-    "Activities/minecraft-server/MC-guide.md",
     "MAIL.md",
+    "Activities/minecraft-server/MC-guide.md",
     "email_list.txt"
   ]
 }

@@ -86,11 +86,11 @@ Note. To Make Sure This Shader Run on Iris, You Need to Download The [Latest Iri
 
 7.  **Copy the Mod Files:** Copy all the `.jar` files from [Mods List](#mods-list)
 
-## 3. Install Iris & Shaders{#iris-install}
+## 3. Install Iris & Shaders {#iris-install}
 1.  **Run the Iris Installer:**
     *   Double-click the `Iris-Installer-3.2.1.jar` file.  If it doesn't open automatically, right-click and select "Open with..." and choose Java (or the Java Runtime Environment).
     *   A menu will appear, click the "Install" button.
-2. **Install Shader:
+2. **Install Shader:**
 	-   Prepare the `.zip` file of your shader. **Do not unzip the file!** 
 	-   Create a new folder named `shaderpacks` under your `.minecraft` directory
 	-   Move your `.zip` file to the `shaderpacks` folder.
