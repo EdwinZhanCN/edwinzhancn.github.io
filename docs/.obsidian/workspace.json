@@ -150,19 +150,9 @@
               "icon": "lucide-list",
               "title": "MAIL 的大纲"
             }
-          },
-          {
-            "id": "7fed41654d90dd5f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,7 +172,8 @@
   },
   "active": "7b9a893b04928de8",
   "lastOpenFiles": [
-    "email_list.txt",
-    "MAIL.md"
+    "Activities/minecraft-server/MC-guide.md",
+    "MAIL.md",
+    "email_list.txt"
   ]
 }
