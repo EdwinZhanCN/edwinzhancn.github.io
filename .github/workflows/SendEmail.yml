@@ -14,9 +14,6 @@ jobs:
 #      - name: Read email list
 #        id: read_email_list
 #        run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
-      - name: Check HTML file existence
-        run: |
-          ls -l .github
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
         with:
@@ -39,7 +36,7 @@ jobs:
           # Optional plain body:
           body: Build job of ${{github.repository}} completed successfully!
           # Optional HTML body read from file:
-          html_body: file://.github/MAIL_BODY.md
+          html_body: file://MAIL_BODY.md
           # Optional converting Markdown to HTML (set content_type to text/html too):
           convert_markdown: true
 
