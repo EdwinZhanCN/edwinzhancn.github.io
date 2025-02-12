@@ -14,7 +14,10 @@ jobs:
 #      - name: Read email list
 #        id: read_email_list
 #        run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
-
+      - name: Check HTML file existence
+        run: |
+          ls -la .github/MAIL_BODY.md
+          cat .github/MAIL_BODY.md
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
         with:
