@@ -37,6 +37,7 @@ I use Iris
 *   [modmenu-13.0.1.jar](https://modrinth.com/mod/modmenu/version/13.0.1)
 *   [appleskin-fabric-mc1.21.3-3.0.6.jar](https://modrinth.com/mod/appleskin)
 *   [journeymap-fabric-1.21.4-6.0.0-beta.37.jar](https://modrinth.com/mod/journeymap/version/1.21.4-6.0.0-beta.37+fabric)
+*   [entity_model_features_fabric_1.21.4-2.4.1.jar](https://modrinth.com/mod/entity-model-features/version/n0dDeW4R)
 
 
 
