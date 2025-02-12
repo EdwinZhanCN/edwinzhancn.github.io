@@ -1,6 +1,6 @@
 # Minecraft-server
 
-Yes, you are invited.
+Yes, you are invited. If you cannot read english, please use [This Web Translator](https://immersivetranslate.com/en/)
 
 ## Mod Installation Guide (Fabric)
 
@@ -24,7 +24,7 @@ I use Iris
 
 - [Iris-Installer-3.2.1.jar](https://www.irisshaders.dev/download)
 
-### Mods List
+### Mods List {#mods-list}
 
 **The mods files:** 
 
