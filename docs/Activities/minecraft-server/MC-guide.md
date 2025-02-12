@@ -68,7 +68,7 @@ I use Iris
 
 1.  **Locate the `mods` Folder:**  In your `.minecraft` directory, you should now have a `mods` folder. If it doesn't exist, create one.
 
-2.  **Copy the Mod Files:** Copy all the `.jar` files from [ModList](#Mods List)
+2.  **Copy the Mod Files:** Copy all the `.jar` files from [ModList](#mods-list)
 
 ## 3. Install Iris
 1.  **Run the Iris Installer:**
