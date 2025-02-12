@@ -10,6 +10,9 @@ on:
 jobs:
   send_email:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
     steps:
 #      - name: Read email list
 #        id: read_email_list
