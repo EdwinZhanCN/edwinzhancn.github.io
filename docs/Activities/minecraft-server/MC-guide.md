@@ -61,7 +61,8 @@ Note. To Make Sure This Shader Run on Iris, You Need to Download The [Latest Iri
 ## Video For Installing Mods
 
 (powered by Manim)
-![[FabricInstallationOptimized.mp4]]
+![](FabricInstallationOptimized.mp4)
+
 ## Steps:
 
 ## 1. Install Fabric Mod Loader
