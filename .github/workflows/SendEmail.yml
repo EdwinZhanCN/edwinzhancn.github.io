@@ -36,5 +36,5 @@ jobs:
           to: ${{ env.emails }}
           from: "Edwin Zhan <edwinzhanblog@gmail.com>"
           body: Your plain text content here
-          html_body: file:///docs/MAIL.md
+          html_body: file://docs/MAIL.md
           convert_markdown: true
