@@ -1,0 +1,44 @@
+name: Send Blog Update Email
+
+on:
+  workflow_dispatch:
+    inputs:
+      blog_post_title:
+        description: 'Title of the updated blog post'
+        required: true
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read email list
+      - id: read_email_list
+      - run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
+
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v4
+        with:
+          # Required mail server address if not connection_url:
+          server_address: smtp.gmail.com
+          # Server port, default 25:
+          server_port: 465
+          # Optional whether this connection use TLS (default is true if server_port is 465)
+          secure: true
+          # Optional (recommended) mail server username:
+          username: ${{secrets.MAIL_USERNAME}}
+          # Optional (recommended) mail server password:
+          password: ${{secrets.MAIL_PASSWORD}}
+          # Required mail subject:
+          subject: Ed's Blog -'${{ github.event.inputs.blog_post_title }}
+          # Required recipients' addresses:
+          to: ${{ env.emails }}
+          # Required sender full name (address can be skipped):
+          from: edwinzhanblog@gmail.com # <user@example.com>
+          # Optional plain body:
+          body: Build job of ${{github.repository}} completed successfully!
+          # Optional HTML body read from file:
+          html_body: file://.github/MAIL_BODY.md
+          # Optional converting Markdown to HTML (set content_type to text/html too):
+          convert_markdown: true
+
+
