@@ -36,8 +36,6 @@ jobs:
           to: ed_zhan@outlook.com,edwinzhancn@icloud.com
           # Required sender full name (address can be skipped):
           from: edwinzhanblog@gmail.com # <user@example.com>
-          # Optional plain body:
-          body: Build job of ${{github.repository}} completed successfully!
           # Optional HTML body read from file:
           html_body: file://MAIL.md
           # Optional converting Markdown to HTML (set content_type to text/html too):
