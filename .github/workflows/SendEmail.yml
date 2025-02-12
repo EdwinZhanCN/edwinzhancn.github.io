@@ -10,13 +10,11 @@ on:
 jobs:
   send_email:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./
     steps:
-#      - name: Read email list
-#        id: read_email_list
-#        run: echo "emails=$(cat .github/email_list.txt)" >> $GITHUB_ENV
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Check HTML file existence
         run: |
           ls -l
