@@ -3,7 +3,7 @@ name: Send Blog Update Email
 on:
   push:
     paths:
-      - 'MAIL.md'
+      - '../../docs/MAIL.md'
 
 jobs:
   send_email:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Read email list
         id: read_email_list
-        run: echo "emails=$(cat email_list.txt)" >> $GITHUB_ENV
+        run: echo "emails=$(cat ./docs/email_list.txt)" >> $GITHUB_ENV
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v4
@@ -36,5 +36,5 @@ jobs:
           to: ${{ env.emails }}
           from: "Edwin Zhan <edwinzhanblog@gmail.com>"
           body: Your plain text content here
-          html_body: file://MAIL.md
+          html_body: file:///docs/MAIL.md
           convert_markdown: true

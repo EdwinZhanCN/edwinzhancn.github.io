@@ -9,8 +9,8 @@ on:
     branches: [main]
     paths-ignore:
       - 'README.md'
-      - 'email_list.txt'
-      - 'MAIL.md'
+      - '../../docs/email_list.txt'
+      - '../../docs/MAIL.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

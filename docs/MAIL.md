@@ -1,7 +1,7 @@
 # Blog Update: Minecraft-server Mods & Blog News
 
 ### **Minecraft-server Mods Update**
-Below are the latest mods and improvements for our Minecraft server experience:
+Below are the latest mods and improvements for our Minecraft server experience!
 
 | Name                    | Type        | Description                                           |
 |-------------------------|-------------|-------------------------------------------------------|
