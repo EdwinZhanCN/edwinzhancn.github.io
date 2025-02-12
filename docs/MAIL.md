@@ -17,7 +17,7 @@ Below are the latest mods and improvements for our Minecraft server experience!
 | Entity Model Features   | Features    | Adds features for custom entity models.               |
 | Entity Texture Features | Features    | Enhances entity textures with additional options.     |
 
-It is recommended to update the module to experience new features when you have time. For specific tutorials, please refer to the guide page. If you encounter any problems, feel free to contact me at Discord (Ed.#0168).
+It is recommended to update the module to experience new features when you have time. For specific tutorials, please refer to the guide page. If you encounter any problems, feel free to contact me at Discord (Ed.#0168)
 
 For detailed installation instructions and additional mods, visit the guide on my blog:  
 [Minecraft-server Mod Installation Guide](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html)

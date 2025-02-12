@@ -3,7 +3,7 @@ name: Send Blog Update Email
 on:
   push:
     paths:
-      - '../../docs/MAIL.md'
+      - 'docs/MAIL.md'
 
 jobs:
   send_email:
