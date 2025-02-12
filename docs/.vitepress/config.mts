@@ -60,6 +60,13 @@ export default defineConfig({
         items:[
           {text: 'Nikon D100', link: '/PhotoLib/Nikon-D100'},
         ]
+      },
+      {
+        text:'Activities',
+        collapsed: true,
+        items:[
+          {text: 'minecraft-server', link: '/Activities/minecraft-server/MC-guide'},
+        ]
       }
     ],
 
