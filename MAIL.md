@@ -1,8 +1,4 @@
-# 📧 Blog Update: Minecraft-server Mods & Blog News
-
-## Hi Friends,
-
-I hope this message finds you well! I wanted to share some exciting updates from my blog, especially for those interested in the Minecraft-server mods. Here's a quick summary of what's new:
+# Blog Update: Minecraft-server Mods & Blog News
 
 ### **Minecraft-server Mods Update**
 Below are the latest mods and improvements for our Minecraft server experience:
