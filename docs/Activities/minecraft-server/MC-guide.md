@@ -60,12 +60,12 @@ Note. To Make Sure This Shader Run on Iris, You Need to Download The [Latest Iri
 - [Install Iris & Shaders](#iris-install)
 ## Video For Installing Mods
 
-(powered by Manim, generate by DeepSeekR1)
+(powered by Manim)
 <video  controls src="../../FabricInstallationOptimized.mp4" type="video/mp4" />
 
 ## Steps:
 
-## 1. Install Fabric Mod Loader
+### 1. Install Fabric Mod Loader
 
 2.  **Locate your Minecraft directory:** This is where your Minecraft files are stored. The default locations are:
     *   **Windows:** `%appdata%\.minecraft` (You can copy and paste this into the File Explorer address bar)
@@ -84,13 +84,13 @@ Note. To Make Sure This Shader Run on Iris, You Need to Download The [Latest Iri
 
 5.  **Success Message:**  You should see a confirmation message when the installation is complete.
 
-## 2. Install the Mods
+### 2. Install the Mods
 
 6.  **Locate the `mods` Folder:**  In your `.minecraft` directory, you should now have a `mods` folder. If it doesn't exist, create one.
 
 7.  **Copy the Mod Files:** Copy all the `.jar` files from [Mods List](#mods-list)
 
-## 3. Install Iris & Shaders {#iris-install}
+### 3. Install Iris & Shaders {#iris-install}
 1.  **Run the Iris Installer:**
     *   Double-click the `Iris-Installer-3.2.1.jar` file.  If it doesn't open automatically, right-click and select "Open with..." and choose Java (or the Java Runtime Environment).
     *   A menu will appear, click the "Install" button.
@@ -99,7 +99,7 @@ Note. To Make Sure This Shader Run on Iris, You Need to Download The [Latest Iri
 	-   Create a new folder named `shaderpacks` under your `.minecraft` directory
 	-   Move your `.zip` file to the `shaderpacks` folder.
 
-## 4. Launch Minecraft with Fabric
+### 4. Launch Minecraft with Fabric
 
 3.  **Open the Minecraft Launcher.**
 4.  **Select the Fabric Profile:** Before launching, in the bottom-left corner, click on the profile selection (it probably says "Latest Release" or "Minecraft 1.21.4").
