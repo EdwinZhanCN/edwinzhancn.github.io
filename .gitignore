@@ -2,8 +2,5 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 node_modules
 .idea
-.DS_Store
-.idea/.DS_Store
-docs/.DS_Store
-docs/.DS_Store
-docs/.DS_Store
+*.DS_Store
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Activities/minecraft-server/MC-guide.md",
+                "file": "MAIL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MC-guide"
+              "title": "MAIL"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "21371f8065fb655d",
   "lastOpenFiles": [
-    "FabricInstallationOptimized.mp4",
-    "FabricInstallationOptimized.mp4",
     "Activities/minecraft-server/MC-guide.md",
+    "FabricInstallationOptimized.mp4",
+    "FabricInstallationOptimized.mp4",
     "MAIL.md",
     "server | Welcome to my blog.md",
     "email_list.txt"
