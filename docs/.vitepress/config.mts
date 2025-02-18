@@ -50,7 +50,6 @@ export default defineConfig({
         text: 'Sharing My Playlist',
         collapsed: true,
         items:[
-          {text: 'Annual Songs', link: '/annual-songs'},
           {text: 'Current Playlists', link: '/current-playlists'},
         ],
       },
