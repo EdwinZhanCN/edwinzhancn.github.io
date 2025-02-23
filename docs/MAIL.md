@@ -1,10 +1,8 @@
 # Blog Update: Minecraft-server Mods & Blog News
 
-### **Minecraft-server Resource Pack & Guide Update**
+### **Minecraft-server Update**
 
-Now, you can play with the latest [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) Mod when you join to the server! The server will automatically download resource pack for you.
-
-**Fresh Animation** enables animals and other creatures has more vivid facial expression and actions.
+Now [Lithium](https://modrinth.com/mod/lithium) is installed on server! Enjoy your game with more fluent experience. 
 
 For detailed installation instructions and additional mods, visit the guide on my blog:  
 [Minecraft-server Mod Installation Guide](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html)
