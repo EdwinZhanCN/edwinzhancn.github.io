@@ -2,7 +2,7 @@
 
 ### **Minecraft-server Update**
 
-Now [Lithium](https://modrinth.com/mod/lithium) is installed on server! Enjoy your game with more fluent experience. 
+Now [Lithium](https://modrinth.com/mod/lithium) is installed on server! It allows server to have better AI and ticks. Enjoy your game with more fluent experience. 
 
 For detailed installation instructions and additional mods, visit the guide on my blog:  
 [Minecraft-server Mod Installation Guide](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html)
