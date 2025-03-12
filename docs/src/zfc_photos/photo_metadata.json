@@ -1,0 +1,114 @@
+[
+{
+  "file": "DSC_0384.png",
+  "title": "Traffic Light",
+  "location": "VA",
+  "description": "Color Test",
+  "exif": {
+    "camera": "NIKON CORPORATION NIKON Z fc",
+    "lens": "NIKKOR Z DX 16-50mm f/3.5-6.3 VR",
+    "aperture": "20.0",
+    "shutter": "1/500",
+    "iso": "2000",
+    "focal_length": "40.0 mm",
+    "timestamp": "2024-12-29 10:04:03"
+  }
+}
+,
+{
+  "file": "DSC_0406.png",
+  "title": "Route",
+  "location": "VA",
+  "description": "Guide Line",
+  "exif": {
+    "camera": "NIKON CORPORATION NIKON Z fc",
+    "lens": "NIKKOR Z DX 16-50mm f/3.5-6.3 VR",
+    "aperture": "6.3",
+    "shutter": "1/400",
+    "iso": "400",
+    "focal_length": "50.0 mm",
+    "timestamp": "2024-12-29 11:59:27"
+  }
+}
+,
+{
+  "file": "DSC_0464.png",
+  "title": "Capitol Hill",
+  "location": "Washington, D.C.",
+  "description": "",
+  "exif": {
+    "camera": " ",
+    "lens": "",
+    "aperture": "",
+    "shutter": "",
+    "iso": "",
+    "focal_length": "",
+    "timestamp": ""
+  }
+}
+,
+{
+  "file": "DSC_0481.png",
+  "title": "Capitol Hill",
+  "location": "Washington, D.C.",
+  "description": "",
+  "exif": {
+    "camera": "NIKON CORPORATION NIKON Z fc",
+    "lens": "NIKKOR Z DX 16-50mm f/3.5-6.3 VR",
+    "aperture": "5.0",
+    "shutter": "1/80",
+    "iso": "8000",
+    "focal_length": "20.5 mm",
+    "timestamp": "2024-12-31 19:46:53"
+  }
+}
+,
+{
+  "file": "DSC_0524.png",
+  "title": "Capitol Hill",
+  "location": "Washington, D.C.",
+  "description": "",
+  "exif": {
+    "camera": "NIKON CORPORATION NIKON Z fc",
+    "lens": "NIKKOR Z DX 16-50mm f/3.5-6.3 VR",
+    "aperture": "5.0",
+    "shutter": "1/80",
+    "iso": "6400",
+    "focal_length": "27.5 mm",
+    "timestamp": "2024-12-31 20:14:23"
+  }
+}
+,
+{
+  "file": "EMPAC[Film].png",
+  "title": "EMPAC [Film-Like]",
+  "location": "Rensselaer Polytechnic Institute",
+  "description": "",
+  "exif": {
+    "camera": " ",
+    "lens": "",
+    "aperture": "",
+    "shutter": "",
+    "iso": "",
+    "focal_length": "",
+    "timestamp": ""
+  }
+}
+,
+{
+  "file": "RPI Troy Building.png",
+  "title": "RPI Troy Building",
+  "location": "Rensselaer Polytechnic Institute",
+  "description": "",
+  "exif": {
+    "camera": " ",
+    "lens": "",
+    "aperture": "",
+    "shutter": "",
+    "iso": "",
+    "focal_length": "",
+    "timestamp": ""
+  }
+}
+
+]

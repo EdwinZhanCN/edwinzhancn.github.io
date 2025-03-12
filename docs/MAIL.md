@@ -1,11 +1,10 @@
-# Blog Update: Minecraft-server Mods & Blog News
+# Blog Update: Photography portfolio Update
 
-### **Minecraft-server Update**
+### **Photography Portfolio Update**
 
-Now [Lithium](https://modrinth.com/mod/lithium) is installed on server! It allows server to have better AI and ticks. Enjoy your game with more fluent experience. 
-
-For detailed installation instructions and additional mods, visit the guide on my blog:  
-[Minecraft-server Mod Installation Guide](https://edwinzhancn.github.io/Activities/minecraft-server/MC-guide.html)
+Now brand new Photo Gallery is available on the blog! Photos From Nikon Zfc are now available for viewing. 
+The gallery is designed to be user-friendly and visually appealing, allowing you to explore the photos in a more engaging way.
+You can check out the new gallery [here](https://edwinzhancn.github.io/PhotoLib/portfolio_zfc.html).
 
 ### **Stay Connected**
 - **Blog:** [EdwinZhanBlog](https://edwinzhancn.github.io/)

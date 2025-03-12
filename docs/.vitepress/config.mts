@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import imagemin from 'vite-plugin-imagemin'
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -57,7 +59,8 @@ export default defineConfig({
         text: 'Photo Gallery',
         collapsed: true,
         items:[
-          {text: 'Nikon D100', link: '/PhotoLib/Nikon-D100'},
+          {text: 'Nikon D100', link: '/PhotoLib/portfolio_d100'},
+          {text: 'Nikon Zfc', link: '/PhotoLib/portfolio_zfc'},
         ]
       },
       {
@@ -74,7 +77,16 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/EdwinZhanCN' }
     ]
   },
+  plugins: [
+    imagemin({
+      optipng: { optimizationLevel: 5 } // PNG 压缩级别
+    })
+  ],
+  markdown: {
+    math: true
+  }
 })
+
 function vue() {
     throw new Error('Function not implemented.')
 }

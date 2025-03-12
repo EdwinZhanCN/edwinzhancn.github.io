@@ -5,6 +5,7 @@ import Theme from 'vitepress/theme'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import './style.css'
+import PhotoGallery from "../../components/PhotoGallery.vue";
 
 export default {
   extends: Theme,
@@ -13,9 +14,9 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  },
+    enhanceApp({ app }) {
+        app.component('PhotoGallery', PhotoGallery)
+    },
   setup() {
     // Get frontmatter and route
     const { frontmatter } = toRefs(useData());
