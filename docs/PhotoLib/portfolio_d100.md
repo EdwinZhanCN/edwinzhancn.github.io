@@ -1,4 +1,4 @@
 # Nikon D100 Featured
 
-<PhotoGallery photosPath="/src/d100_photos"/>
+<PhotoGallery photosPath="/d100_photos"/>
 
