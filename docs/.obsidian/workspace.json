@@ -20,6 +20,34 @@
               "icon": "lucide-file",
               "title": "MAIL"
             }
+          },
+          {
+            "id": "223786180d0d68df",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://modrinth.com/mod/litematica/version/0.21.2",
+                "title": "Litematica 1.21.4-0.21.2 - Litematica",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Litematica 1.21.4-0.21.2 - Litematica"
+            }
+          },
+          {
+            "id": "d91409f8d5cfc0d2",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://modrinth.com/mod/malilib/versions",
+                "title": "MaLiLib 1.21.4-0.23.1 - MaLiLib",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "MaLiLib 1.21.4-0.23.1 - MaLiLib"
+            }
           }
         ]
       }
@@ -171,13 +199,13 @@
   },
   "active": "21371f8065fb655d",
   "lastOpenFiles": [
+    "Activities/minecraft-server/MC-guide.md",
+    "MAIL.md",
     "current-playlists.md",
     "Clippings/Untitled.md",
     "Clippings",
     "annual-songs.md",
-    "MAIL.md",
     "FabricInstallationOptimized.mp4",
-    "Activities/minecraft-server/MC-guide.md",
     "server | Welcome to my blog.md",
     "email_list.txt"
   ]

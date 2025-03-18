@@ -27,6 +27,7 @@ I use Iris
 ### Mods List {#mods-list}
 
 **The mods files:** 
+
 *   [fabric-api-0.115.1+1.21.4.jar](https://modrinth.com/mod/fabric-api/version/0.115.1+1.21.4)
 *   [fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/5950505)
 *   [InventoryProfilesNext-fabric-1.21.4-2.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next/files/5937110)
@@ -38,14 +39,15 @@ I use Iris
 *   [entity_model_features_fabric_1.21.4-2.4.1.jar](https://modrinth.com/mod/entity-model-features/version/n0dDeW4R)
 *   [entity_texture_features_fabric_1.21.4-6.2.10.jar](https://modrinth.com/mod/entitytexturefeatures/version/441qELLe)
 *   [tweakeroo-fabric-1.21.4-0.23.1.jar](https://modrinth.com/mod/tweakeroo/version/0.23.1)
-*   [malilib-fabric-1.21.4-0.23.1.jar](https://modrinth.com/mod/malilib/version/0.23.1)
 *   [XaerosWorldMap_1.39.3_Fabric_1.21.4.jar](https://modrinth.com/mod/xaeros-world-map/version/1.39.3_Fabric_1.21.4)
 *   [Xaeros_Minimap_25.1.0_Fabric_1.21.4.jar](https://modrinth.com/mod/xaeros-minimap/version/25.1.0_Fabric_1.21.4)
 
 [Zip File For Above Initial Package](https://drive.google.com/file/d/1cDLm9mCsZr_2qInrS151-V_he-tW7v_H/view?usp=sharing)
 
 **Updated Mods:**
-* *None*
+*   [malilib-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/malilib/version/0.23.2)
+*   [tweakeroo-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/tweakeroo/version/0.23.2)
+*   [litematica-fabric-1.21.4-0.21.2.jar](https://modrinth.com/mod/litematica/version/0.21.2)
 ### Explore Shaders Using Iris Online!
 
 Recommends (High Compatibility, Apple M-Series, etc.):

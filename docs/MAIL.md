@@ -1,11 +1,14 @@
-# Blog Update: Photography portfolio Update
+# Blog Update: Minecraft Mods Update
 
-### **Photography Portfolio Update**
+Minecraft Mods Update:
 
-Now brand new Photo Gallery is available on the blog! Photos From Nikon Zfc are now available for viewing. 
-The gallery is designed to be user-friendly and visually appealing, allowing you to explore the photos in a more engaging way.
-You can check out the new gallery [here](https://edwinzhancn.github.io/PhotoLib/portfolio_zfc.html).
+Hey everyone! Just wanted to let you know that if you’re interested in making complex builds, planning out layouts, or copying structures on the server, you’re welcome to use Litematica! It’s a really helpful mod, but completely optional - feel free to build however you’re most comfortable. If you’re new to it, there are lots of tutorials online. Happy building! 😊 ⛏️
 
+**Update following mods (Remove the old one by checking version):**
+*   [malilib-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/malilib/version/0.23.2)
+*   [tweakeroo-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/tweakeroo/version/0.23.2)
+**Add this mod**
+*   [litematica-fabric-1.21.4-0.21.2.jar](https://modrinth.com/mod/litematica/version/0.21.2)
 ### **Stay Connected**
 - **Blog:** [EdwinZhanBlog](https://edwinzhancn.github.io/)
 - **Discord:** Ed.#0168

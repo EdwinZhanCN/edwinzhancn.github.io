@@ -69,6 +69,13 @@ export default defineConfig({
         items:[
           {text: 'minecraft-server', link: '/Activities/minecraft-server/MC-guide'},
         ]
+      },
+      {
+        text: 'Comments',
+        collapsed: true,
+        items:[
+          {text: '秒速五厘米', link: '/Notes/秒速五厘米'},
+        ]
       }
     ],
 

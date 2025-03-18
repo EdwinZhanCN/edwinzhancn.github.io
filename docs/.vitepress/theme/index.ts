@@ -6,6 +6,7 @@ import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import './style.css'
 import PhotoGallery from "../../components/PhotoGallery.vue";
+import ParallaxView from '../../components/ParallaxView.vue';
 
 export default {
   extends: Theme,
@@ -16,6 +17,7 @@ export default {
   },
     enhanceApp({ app }) {
         app.component('PhotoGallery', PhotoGallery)
+        app.component('ParallaxView', ParallaxView)
     },
   setup() {
     // Get frontmatter and route
