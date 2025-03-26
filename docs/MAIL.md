@@ -1,14 +1,13 @@
-# Blog Update: Minecraft Mods Update
+# Blog Update: Minecraft Resource Pack Recommendation
 
-Minecraft Mods Update:
+## Hate Vanilla RedStone Display?
 
-Hey everyone! Just wanted to let you know that if you’re interested in making complex builds, planning out layouts, or copying structures on the server, you’re welcome to use Litematica! It’s a really helpful mod, but completely optional - feel free to build however you’re most comfortable. If you’re new to it, there are lots of tutorials online. Happy building! 😊 ⛏️
+**[Try XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display/version/3.6)**
+This is a *vanilla-like*  display resource pack, which allows you to know that state of your redstone devices like **RedStone Signal, Direction of Funnel, NoteBlock, etc.**
 
-**Update following mods (Remove the old one by checking version):**
-*   [malilib-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/malilib/version/0.23.2)
-*   [tweakeroo-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/tweakeroo/version/0.23.2)
-**Add this mod**
-*   [litematica-fabric-1.21.4-0.21.2.jar](https://modrinth.com/mod/litematica/version/0.21.2)
+See Video by *XeKr on [哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1bb411J7hV/?spm_id_from=333.337.search-card.all.click&vd_source=22e103d2856d069401dd831ed1b5a2b2)*
+
+<iframe src="https://www.bilibili.com/video/BV1bb411J7hV/?spm_id_from=333.337.search-card.all.click&vd_source=22e103d2856d069401dd831ed1b5a2b2"   width="640"   height="480"   scrolling="no"   border="2"   frameborder="no"   framespacing="0"   allowfullscreen="false"> </iframe>
 ### **Stay Connected**
 - **Blog:** [EdwinZhanBlog](https://edwinzhancn.github.io/)
 - **Discord:** Ed.#0168
