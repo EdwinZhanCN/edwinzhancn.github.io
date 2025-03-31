@@ -1,13 +1,8 @@
-# Blog Update: Minecraft Resource Pack Recommendation
+# Blog Update: Minecraft Tutorial Update
 
-## Hate Vanilla RedStone Display?
+Just wanted to share a super simple way to get and update Minecraft mods using Git! All the details (super quick steps, I promise!)
 
-**[Try XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display/version/3.6)**
-This is a *vanilla-like*  display resource pack, which allows you to know that state of your redstone devices like **RedStone Signal, Direction of Funnel, NoteBlock, etc.**
-
-See Video by *XeKr on [哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1bb411J7hV/?spm_id_from=333.337.search-card.all.click&vd_source=22e103d2856d069401dd831ed1b5a2b2)*
-
-<iframe src="https://www.bilibili.com/video/BV1bb411J7hV/?spm_id_from=333.337.search-card.all.click&vd_source=22e103d2856d069401dd831ed1b5a2b2"   width="640"   height="480"   scrolling="no"   border="2"   frameborder="no"   framespacing="0"   allowfullscreen="false"> </iframe>
+If you’re tired of manually updating mods, this method does the heavy lifting for you. Check it out and let me know if you need help!
 ### **Stay Connected**
 - **Blog:** [EdwinZhanBlog](https://edwinzhancn.github.io/)
 - **Discord:** Ed.#0168

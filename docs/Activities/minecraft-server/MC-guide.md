@@ -48,6 +48,28 @@ I use Iris
 *   [malilib-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/malilib/version/0.23.2)
 *   [tweakeroo-fabric-1.21.4-0.23.2.jar](https://modrinth.com/mod/tweakeroo/version/0.23.2)
 *   [litematica-fabric-1.21.4-0.21.2.jar](https://modrinth.com/mod/litematica/version/0.21.2)
+
+**Using Git to get mods**:
+1. Intall Git [Here](https://git-scm.com/downloads)
+2. Open `PowerShell` or `Terminal` on you PC
+3. Navigate to the `minecraft`  folder in your PC, type following command in PowerShell or Terminal.
+```shell
+# Windows PowerShell
+cd $env:APPDATA\.minecraft
+# Mac Terminal
+cd ~/Library/Application Support/minecraft
+```
+3. Use following command to get the mods folder, if you already had a mods folder, please remove/delete it.
+```shell
+git clone https://github.com/EdwinZhanCN/mod-pack.git mods
+```
+4. if the mods is updated, and an email is send to you,  you can open up a new PowerShell/Terminal, repeat the step 2 and 3 then execute following command on `minecraft` directory.
+```shell
+cd mods
+git fetch
+git pull
+```
+
 ### Explore Shaders Using Iris Online!
 
 Recommends (High Compatibility, Apple M-Series, etc.):
