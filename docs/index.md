@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "EdwinZhan Personal Blog"
-  text: "Sharing my journey of computer science"
+  name: "Ed's Blog"
+  text: "What you’ll see beyond the code"
   tagline: A growing collection of my thoughts and notes
   actions:
     - theme: brand
@@ -12,14 +12,14 @@ hero:
       link: /about
     - theme: secondary
       text: Source code
-      link: https://github.com/EdwinZhanCN/SpringVuePersonalWeb
+      link: https://github.com/EdwinZhanCN/edwinzhancn.github.io
 
 features:
   - title: Building your own website
     details: Using Microsoft Azure and Github to build your own website.
   - title: AI on Jetson Nano
     details: Setting up the environment for AI on Jetson Nano.
-  - title: Apple products
-    details: Product Usage Insights from a Ten-Year Apple User.
+  - title: Tech Manual
+    details: Guidance for useful tools.
 ---
 

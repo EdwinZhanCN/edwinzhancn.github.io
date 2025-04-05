@@ -1,52 +1,24 @@
 {
   "main": {
-    "id": "9ee8d65aa34f06d8",
+    "id": "f746524ac115478e",
     "type": "split",
     "children": [
       {
-        "id": "42bafd840e99a8fd",
+        "id": "7a6a9da41a1937f7",
         "type": "tabs",
         "children": [
           {
-            "id": "21371f8065fb655d",
+            "id": "9370b1b916be6ae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAIL.md",
+                "file": "docs/Tools/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAIL"
-            }
-          },
-          {
-            "id": "223786180d0d68df",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://modrinth.com/mod/litematica/version/0.21.2",
-                "title": "Litematica 1.21.4-0.21.2 - Litematica",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Litematica 1.21.4-0.21.2 - Litematica"
-            }
-          },
-          {
-            "id": "d91409f8d5cfc0d2",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://modrinth.com/mod/malilib/versions",
-                "title": "MaLiLib 1.21.4-0.23.1 - MaLiLib",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "MaLiLib 1.21.4-0.23.1 - MaLiLib"
+              "title": "Docker"
             }
           }
         ]
@@ -55,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d568ca77c0036e2e",
+    "id": "6790110c9ae4c1d9",
     "type": "split",
     "children": [
       {
-        "id": "e2b5558bc4640695",
+        "id": "5ab773360d9354b8",
         "type": "tabs",
         "children": [
           {
-            "id": "70fcd712aaf23d24",
+            "id": "39424ad53109cf15",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,12 +48,12 @@
             }
           },
           {
-            "id": "b7b5ab1df2192b68",
+            "id": "a427501e9343c538",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "untitl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +65,7 @@
             }
           },
           {
-            "id": "d9d1b6c4aaa70bcd",
+            "id": "461314e34f2ae79c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "c237057d0597a39e",
+    "id": "2b81f2d2b6d05413",
     "type": "split",
     "children": [
       {
-        "id": "7e64b335fe6c63be",
+        "id": "492d2a2e369a2d07",
         "type": "tabs",
         "children": [
           {
-            "id": "33d5adf107df9745",
+            "id": "5e58532d817a718c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MAIL 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "aa714da02fa15203",
+            "id": "0045946b79b29015",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "MAIL 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "33cafc68a2576b06",
+            "id": "77e3cd87253d5035",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,22 +135,34 @@
             }
           },
           {
-            "id": "ea107ac3706f757d",
+            "id": "391b78db441f1f6b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAIL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MAIL 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "2edbfa781320c882",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,17 +179,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "21371f8065fb655d",
+  "active": "9370b1b916be6ae2",
   "lastOpenFiles": [
-    "Activities/minecraft-server/MC-guide.md",
-    "api-examples.md",
-    "MAIL.md",
-    "current-playlists.md",
-    "Clippings/Untitled.md",
-    "Clippings",
-    "annual-songs.md",
-    "FabricInstallationOptimized.mp4",
-    "server | Welcome to my blog.md",
-    "email_list.txt"
+    "docs/image/Markdown-mark.svg.png",
+    "docs/image/markdown.svg",
+    "docs/api-examples.md",
+    "docs/current-playlists.md",
+    "docs/FabricInstallationOptimized.mp4",
+    "docs/MAIL.md",
+    "docs/Tools/Docker.md",
+    "docs/JetsonYolo/Setup The Environment Using Anaconda.md",
+    "docs/JetsonYolo/Downloads Applications.md",
+    "docs/JetsonYolo/Code and Run YOLOv8.md",
+    "node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/vendor/jpegtran",
+    "node_modules/cwebp-bin/vendor/cwebp",
+    "node_modules/mozjpeg/vendor/cjpeg",
+    "node_modules/jpegtran-bin/vendor/jpegtran",
+    "node_modules/gifsicle/vendor/gifsicle",
+    "node_modules/pngquant-bin/vendor/pngquant",
+    "node_modules/optipng-bin/vendor/optipng",
+    "node_modules/mathjax-full/README.md",
+    "node_modules/mathjax-full/CONTRIBUTING.md",
+    "node_modules/mathjax-full/tslint.json",
+    "node_modules/mathjax-full/tsconfig.json",
+    "node_modules/@esbuild/darwin-arm64/README.md",
+    "node_modules/speech-rule-engine/README.md",
+    "node_modules/esbuild-darwin-arm64/README.md",
+    "node_modules/speech-rule-engine/bin/README.md",
+    "node_modules/lit-html/README.md",
+    "node_modules/@iconify-json/simple-icons/README.md",
+    "node_modules/cwebp-bin/readme.md",
+    "node_modules/css-tree/README.md",
+    "node_modules/css-tree/CHANGELOG.md",
+    "node_modules/lit/logo.svg",
+    "node_modules/lit/README.md",
+    "node_modules/vitepress/README.md",
+    "node_modules/preact/README.md",
+    "node_modules/@lit/reactive-element/README.md",
+    "node_modules/speech-rule-engine/lib/README.md",
+    "node_modules/vite/README.md",
+    "node_modules/vite/LICENSE.md",
+    "node_modules/jpegtran-bin/test/fixtures/test.jpg",
+    "node_modules/jpegtran-bin/test/fixtures/test-optimized.jpg",
+    "node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/test/fixtures/test.jpg",
+    "node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/test/fixtures/test-optimized.jpg"
   ]
 }

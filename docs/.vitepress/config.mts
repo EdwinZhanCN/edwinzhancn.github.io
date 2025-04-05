@@ -49,6 +49,13 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Tools',
+        collapsed: true,
+        items:[
+          {text: 'Docker', link: '/Tools/Docker'}
+        ]
+      },
+      {
         text: 'Sharing My Playlist',
         collapsed: true,
         items:[
@@ -70,18 +77,12 @@ export default defineConfig({
           {text: 'minecraft-server', link: '/Activities/minecraft-server/MC-guide'},
         ]
       },
-      {
-        text: 'Comments',
-        collapsed: true,
-        items:[
-          {text: '秒速五厘米', link: '/Notes/秒速五厘米'},
-        ]
-      }
     ],
 
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/EdwinZhanCN' }
+      { icon: 'github', link: 'https://github.com/EdwinZhanCN' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/592046389'},
     ]
   },
   plugins: [
