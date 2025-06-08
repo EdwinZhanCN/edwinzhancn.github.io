@@ -1,7 +1,40 @@
 {
+  "generated": "2025-06-08T06:05:12.600Z",
+  "totalCount": 4,
   "files": [
-    "2025-06-08.md"
+    "2025-06-08.md",
+    "2024-12-15.md",
+    "2024-11-20.md",
+    "2024-10-10.md"
   ],
-  "generated": "2025-06-08T05:46:45.574Z",
-  "totalCount": 1
+  "metadata": [
+    {
+      "filename": "2025-06-08.md",
+      "date": "2025-06-08",
+      "title": "ChangeLog Component Migration - June 8, 2025",
+      "lastModified": "2025-06-08T06:01:54.889Z",
+      "size": 940
+    },
+    {
+      "filename": "2024-12-15.md",
+      "date": "2024-12-15",
+      "title": "Website Redesign - December 15, 2024",
+      "lastModified": "2025-06-08T05:59:35.057Z",
+      "size": 660
+    },
+    {
+      "filename": "2024-11-20.md",
+      "date": "2024-11-20",
+      "title": "Content Updates - November 20, 2024",
+      "lastModified": "2025-06-08T05:59:35.065Z",
+      "size": 463
+    },
+    {
+      "filename": "2024-10-10.md",
+      "date": "2024-10-10",
+      "title": "Initial Launch - October 10, 2024",
+      "lastModified": "2025-06-08T05:59:35.065Z",
+      "size": 429
+    }
+  ]
 }

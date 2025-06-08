@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 
-import { readdir, writeFile } from 'fs/promises'
+/**
+ * Generate changelog manifest for static deployment
+ * This script scans the public/changelogs directory and creates a manifest
+ * for the ChangeLog.vue component to consume
+ */
+
+import { readdir, writeFile, readFile, stat } from 'fs/promises'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -9,32 +15,54 @@ const __dirname = dirname(__filename)
 
 async function generateChangelogManifest() {
   try {
-    const changelogDir = join(__dirname, '../../changelogs')
-    const publicDir = join(__dirname, '../../public')
+    // Update paths to use public/changelogs
+    const changelogDir = join(__dirname, '../../public/changelogs')
+    const outputPath = join(__dirname, '../../public/changelogs-manifest.json')
     
-    // Read all markdown files from changelogs directory
+    console.log(`📁 Scanning: ${changelogDir}`)
+    
+    // Read all markdown files from public/changelogs directory
     const files = await readdir(changelogDir)
-    const markdownFiles = files
-      .filter(file => file.endsWith('.md'))
-      .sort((a, b) => {
-        // Sort by date (assuming YYYY-MM-DD.md format)
-        const dateA = a.replace('.md', '')
-        const dateB = b.replace('.md', '')
-        return new Date(dateB) - new Date(dateA)
-      })
+    const markdownFiles = []
     
-    const manifest = {
-      files: markdownFiles,
-      generated: new Date().toISOString(),
-      totalCount: markdownFiles.length
+    for (const file of files.filter(f => f.endsWith('.md') && f !== 'README.md')) {
+      const filePath = join(changelogDir, file)
+      const stats = await stat(filePath)
+      const content = await readFile(filePath, 'utf-8')
+      
+      // Extract date from filename or content
+      const dateFromFilename = file.replace('.md', '')
+      const titleMatch = content.match(/^# (.+)$/m)
+      const title = titleMatch ? titleMatch[1] : 'Untitled'
+      
+      markdownFiles.push({
+        filename: file,
+        date: dateFromFilename,
+        title: title,
+        lastModified: stats.mtime.toISOString(),
+        size: stats.size
+      })
     }
     
-    const manifestPath = join(publicDir, 'changelogs-manifest.json')
-    await writeFile(manifestPath, JSON.stringify(manifest, null, 2))
+    // Sort by date (newest first)
+    markdownFiles.sort((a, b) => new Date(b.date) - new Date(a.date))
     
-    console.log(`✅ Generated changelog manifest with ${markdownFiles.length} files`)
-    console.log(`📝 Files: ${markdownFiles.join(', ')}`)
-    console.log(`📁 Saved to: ${manifestPath}`)
+    const manifest = {
+      generated: new Date().toISOString(),
+      totalCount: markdownFiles.length,
+      files: markdownFiles.map(f => f.filename),
+      metadata: markdownFiles
+    }
+    
+    await writeFile(outputPath, JSON.stringify(manifest, null, 2))
+    
+    console.log(`✅ Generated changelog manifest:`)
+    console.log(`   📄 Files: ${markdownFiles.length}`)
+    console.log(`   📍 Output: ${outputPath}`)
+    console.log(`   📋 Files included:`)
+    markdownFiles.forEach(file => {
+      console.log(`      - ${file.filename} (${file.title})`)
+    })
     
   } catch (error) {
     console.error('❌ Error generating changelog manifest:', error)

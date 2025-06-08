@@ -219,6 +219,7 @@ const getChangelogFilesList = async () => {
   
   // Fallback to default files
   return [
+    '2025-06-08.md',
     '2024-12-15.md',
     '2024-11-20.md', 
     '2024-10-10.md'
