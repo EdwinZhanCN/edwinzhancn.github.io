@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/about" },
+      { text: "Changelog", link: "/changelog" },
       {
         text: "Guides",
         items: [
