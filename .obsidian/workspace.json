@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,7 +271,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bfe1d7fa85064616",
+  "active": "c3d4d4d609530890",
   "lastOpenFiles": [
     "docs/SWE/@Culinex-Recipe Mastering SwiftData.md",
     "docs/SWE/@Culinex-Recipe Data Management Keys.md",

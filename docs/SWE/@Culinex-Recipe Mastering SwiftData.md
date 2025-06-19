@@ -62,8 +62,8 @@ class RecipeStep: Identifiable { // RecipeStep is Identifiabe because it stores 
     var duration: StepTime // StepTime is codable struct
     
     @Relationship(inverse: \Skill.recipeSteps) var skills: [Skill]? // Skill is another stored model
-    @Relationship(deleteRule: .cascade, inverse: \RecipeIngredient.step) 
-    var recipeIngredients = [RecipeIngredient]()// Ingredient is another stored model
+    @Relationship(deleteRule: .cascade)
+    var stepIngredients = [RecipeIngredient]()// Ingredient is another stored model
     @Relationship(inverse: \Recipe.steps) var recipe: Recipe?
 
 
@@ -90,7 +90,7 @@ class Recipe: Identifiable {
     @Attribute(.unique) var name: String
     // Some required attributes
     var summary: String
-    var creationDate: Date
+    var creationDate: Date
 
 	// Define Relationship, and deleteRule
     @Relationship(deleteRule: .cascade)
@@ -199,7 +199,7 @@ final class RecipeIngredient {
     var unit: String
     
     // Relashionship, which step does this amount of recipe belongs to?
-    @Relationship(inverse: \RecipeStep.ingredients) var step: RecipeStep
+    @Relationship(inverse: \RecipeStep.stepIngredients) var step: RecipeStep
     
     // Relashionship, which ingredient we want to establish actually is
     var ingredient: Ingredient?
