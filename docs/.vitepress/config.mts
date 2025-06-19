@@ -139,7 +139,7 @@ export default defineConfig({
         items: [
           {
             text: "@Culinex-Recipe Mastring SwiftData",
-            link: "/SWE/@@Culinex-Recipe Mastering SwiftData",
+            link: "/SWE/@Culinex-Recipe Mastering SwiftData",
           },
           {
             text: "@Lumilio-Photos WAL (Wait-Ahead Logging)",
