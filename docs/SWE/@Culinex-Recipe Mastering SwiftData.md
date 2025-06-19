@@ -226,7 +226,7 @@ context.insert(step1)
 Hey, have you notice that, it is wired for us to only do `insert` action here. A single `RecipeStep` have many `RecipeIngredient`, we need to append the `flourUsage` to `step1`! Yes? No! SwiftData is designed for *Single Source of Truth*, when we manipulate data with a relationship, the workflow should be:
 - Initialize a Model (properties with/without relationship)
 - Establish Relationship
-	- like if our model initialized the children have relationship, and the parent model (usually the model with optional field) have been initialized without determine nullity , we don't need to append children to parent, we can just insert the parent into context. For example `flourUsage` and `step1`, `RecipeStep` and `Recipe`
+	- like if our children model initialized the without relationship, and the parent model (usually the model with optional field) have been initialized without determine nullity or empty list, need to append children to parent, then insert the parent into context. For example `flourUsage` and `step1`, `RecipeStep` and `Recipe`
 	- but for our `RecipeIngredient` model. The purpose we made this model is to establish connection, so we don't want it appears to be solely. We kinda force it to bind a `RecipeStep` at initialization. Therefore, we don't need to establish relationship again, cuz we've establish the relationship at init phrase.
 - Insert to Context
 
