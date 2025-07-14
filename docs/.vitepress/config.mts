@@ -145,6 +145,10 @@ export default defineConfig({
             text: "@Lumilio-Photos WAL (Wait-Ahead Logging)",
             link: "/SWE/@Lumilio-Photos WAL (Wait-Ahead Log)",
           },
+          {
+            text: "@Lumilio-Photos React Context Provider",
+            link: "/SWE/@Lumilio-Photos React Context Provider",
+          }
         ],
       },
       {

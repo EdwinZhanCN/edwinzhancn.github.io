@@ -230,3 +230,9 @@ Hey, have you notice that, it is wired for us to only do `insert` action here. A
 	- but for our `RecipeIngredient` model. The purpose we made this model is to establish connection, so we don't want it appears to be solely. We kinda force it to bind a `RecipeStep` at initialization. Therefore, we don't need to establish relationship again, cuz we've establish the relationship at init phrase.
 - Insert to Context
 
+## One ModelContainer One ModelContext
+
+
+## State Management With SwiftUI
+
+

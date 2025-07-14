@@ -10,7 +10,7 @@ The reference project, [Lumilio-Photos](https://www.github.com/EdwinZhanCN/Lumil
 • **worker:** The worker container performs the actual CRUD operations on user-provided data, manages database monitoring and tasks, and communicates with the machine learning service.
 • **ml:** The ML container extends the functionality of the photo application by generating semantic context for photos and other assets, including face recognition, image classification, and vector search.
 
-Keywords here: AI Application, Frontend-Backend Separation, RESTful API, Distributed Architecture, Microservices, WAL
+Keywords: AI Application, Frontend-Backend Separation, RESTful API, Distributed Architecture, Microservices
 ## Manage Environment  Variables
 
 
@@ -19,3 +19,4 @@ Keywords here: AI Application, Frontend-Backend Separation, RESTful API, Distrib
 ## Docker Compose
 
 ## Docker Image Management
+
