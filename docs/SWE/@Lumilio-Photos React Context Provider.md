@@ -8,8 +8,6 @@
 
 > [**State** is like a component’s memory.](https://react.dev/learn/state-a-components-memory) It lets a component keep track of some information and change it in response to interactions. For example, a `Button` might keep track of `isHovered` state.
 
-**Hooks**, 作为React特有的
-
 ## `useState` 
 
 这是React框架中最基础，最常用的Hook。从见到它的第一刻起，你就能窥探到整个React框架是如何设计Hooks的。即，暴露一个变量，一个方法和传入一些起始参数。
@@ -134,7 +132,7 @@ export default function App() {
 
 ## React Context Provider：状态管理的利器
 
-在前端开发中，尤其是在像 Lumilio-Photos 这样复杂的单页应用（SPA）中，状态管理是一个核心挑战。当组件层级较深时，通过 props 一层层地传递数据（props drilling）会变得非常繁琐且难以维护。React Context API 正是为了解决这一痛点而生，它提供了一种在组件树中共享数据的方式，而无需显式地通过 props 传递。
+在前端开发中，尤其是在像 Lumilio-Photos 这样复杂的应用中，状态管理是一个核心挑战。当组件层级较深时，通过 props 一层层地传递数据（props drilling）会变得非常繁琐且难以维护。React Context API 正是为了解决这一痛点而生，它提供了一种在组件树中共享数据的方式，而无需显式地通过 props 传递。
 
 ### 为什么选择 Context API？
 
@@ -406,3 +404,29 @@ export function useUploadContext() {
       );
     }
     ```
+
+
+## 总结
+
+一个典型的`Context`包括以下内容：
+
+```tsx
+// 定义所有状态的类型，优先使用interface来定义对象结构
+interface State {}
+// 定义所有操作的联合类型，type支持更加复杂的类型表达
+type Action {}
+// 初始化所有的状态
+const initialState = ()
+// 使用Reducer来更新状态
+const Reducer = ()
+// context的定义，包括状态管理，外部方法，和其他不需要特别管理的衍生状态
+interface ContextValue {}
+// context需要的参数，通常为其所包裹的组件/组件树ReactNode
+interface ProviderProps {}
+// 使用`createContext`来生成react context实例
+export const Context = createContext <ContextValue |  undefined> (undefined);
+// 定一个Provider方法，其中包括所有的context相关，上述类型相关的具体实现，返回一个React Context Provider
+export default function Provider(){}
+// 自定义钩子，可以直接在组件中使用context中暴露的所有状态和方法
+function useContext(){}
+```
