@@ -1,6 +1,6 @@
 # @Lumilio-Photos WAL (Wait-Ahead Logging)
 
-参考项目[流明集](https://github.com/EdwinZhanCN/Lumilio-Photos)
+参考项目 [流明集](https://github.com/EdwinZhanCN/Lumilio-Photos)
 
 在此后端应用中，API层只作为接受文件并落盘的操作，负责创建任务，这里的任务通常是复杂的，Time-Consuming的。对此，我们可以将任务分成几类，或者可以说是为任务的类型进行一个封装。让我们来看`Task`Model的具体实现
 

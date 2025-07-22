@@ -25,15 +25,15 @@ features:
     details: Comprehensive guide for setting up YOLOv8 and other AI frameworks on NVIDIA Jetson devices.
     link: /guides/jetson-yolo/Introduction
     linkText: Learn More
-  - icon: 🛠️
-    title: Tools & Resources
-    details: Curated collection of development tools, Docker guides, and technical documentation.
-    link: /Tools/Docker
+  - icon: 
+    title: Apple User
+    details: Curated collection of Apple devices, platforms user guides.
+    link: /apple/Applications on macOS
     linkText: Explore Tools
   - icon: 📸
     title: Photography Gallery
     details: Personal photography collection featuring work with Nikon D100 and Nikon Zfc cameras.
-    link: /gallery/PhotoLib/portfolio_d100
+    link: /gallery/gallery/portfolio_d100
     linkText: View Gallery
   - icon: 🎵
     title: Music Playlists
@@ -46,4 +46,3 @@ features:
     link: /Activities/minecraft-server/MC-guide
     linkText: Join Activities
 ---
-

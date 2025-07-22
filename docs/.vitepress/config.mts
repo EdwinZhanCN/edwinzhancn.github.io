@@ -15,7 +15,15 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/about" },
-      { text: "Changelog", link: "/changelog" },
+      {
+        text: "Apple",
+        items: [
+          {
+            text: "What am I using on macOS?",
+            link: "/apple/Applications on macOS",
+          },
+        ],
+      },
       {
         text: "Guides",
         items: [
@@ -33,7 +41,6 @@ export default defineConfig({
           },
         ],
       },
-      { text: "Gallery", link: "/gallery/PhotoLib/portfolio_d100" },
       { text: "Tools", link: "/Tools/Docker" },
     ],
 
@@ -148,7 +155,7 @@ export default defineConfig({
           {
             text: "@Lumilio-Photos React Context Provider",
             link: "/SWE/@Lumilio-Photos React Context Provider",
-          }
+          },
         ],
       },
       {
@@ -193,7 +200,7 @@ export default defineConfig({
 
     footer: {
       message: "Built with VitePress",
-      copyright: "Copyright © 2024 Edwin Zhan",
+      copyright: "Copyright © 2023 Edwin Zhan",
     },
 
     editLink: {
