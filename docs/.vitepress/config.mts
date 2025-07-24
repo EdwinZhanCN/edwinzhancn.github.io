@@ -16,6 +16,15 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "About", link: "/about" },
       {
+        text: "Projects",
+        items: [
+          {
+            text: "Lumilio Photos",
+            link: "/projects/lumilio-photos",
+          },
+        ],
+      },
+      {
         text: "Apple",
         items: [
           {
@@ -35,13 +44,8 @@ export default defineConfig({
             text: "YOLOv8 on Jetson",
             link: "/guides/jetson-yolo/Introduction",
           },
-          {
-            text: "Cloudflare R2 Media Management",
-            link: "/guides/cloudflare-r2/",
-          },
         ],
       },
-      { text: "Tools", link: "/Tools/Docker" },
     ],
 
     sidebar: [
